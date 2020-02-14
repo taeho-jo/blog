@@ -4,7 +4,7 @@
   "version": "3.0.0",
   "author": "Jotng[Taeho Jo]<jotan3726@gmail.com>",
   "bugs": {
-    "url": "https://github.com/taeho-jo/taeho-jo/issues"
+    "url": "'https://taeho-jo.github.io/"
   },
   "dependencies": {
     "@fastly/performance-observer-polyfill": "^1.0.2",

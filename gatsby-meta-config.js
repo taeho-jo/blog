@@ -4,7 +4,7 @@ module.exports = {
   author: `Jotang`,
   introduction: `일상과 배운 것을 기록합니다.`,
   siteUrl: `https://taeho-jo.github.io/`,
-  sitemapPath: ``,
+  sitemapPath: `https://taeho-jo.github.io/`,
   robotsPolicy: [{ userAgent: '*', allow: '/' }],
   social: {
     twitter: ``, // Your Twitter account
