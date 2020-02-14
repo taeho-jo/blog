@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import './index.scss'
+import './index.scss';
 
 export const FacebookIcon = ({ onClick }) => (
   <a
@@ -11,7 +11,7 @@ export const FacebookIcon = ({ onClick }) => (
     aria-label="Share on Facebook"
     onClick={onClick}
   >
-    <div className="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--large">
+    {/* <div className="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--large">
       <div
         aria-hidden="true"
         className="resp-sharing-button__icon resp-sharing-button__icon--solid"
@@ -21,6 +21,6 @@ export const FacebookIcon = ({ onClick }) => (
         </svg>
       </div>
       <span className="service-label">페이스북에 공유하기</span>
-    </div>
+    </div> */}
   </a>
-)
+);

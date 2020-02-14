@@ -88,7 +88,7 @@ Head.propTypes = {
 
 const detailsQuery = graphql`
   query DefaultSEOQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+    avatar: file(absolutePath: { regex: "/profile2.jpg/" }) {
       childImageSharp {
         fixed(width: 72, height: 72) {
           ...GatsbyImageSharpFixed

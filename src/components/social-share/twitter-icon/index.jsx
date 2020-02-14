@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import './index.scss'
+import './index.scss';
 
 export const TwitterIcon = ({ onClick }) => (
   <a
@@ -10,7 +10,7 @@ export const TwitterIcon = ({ onClick }) => (
     aria-label="Share on Twitter"
     onClick={onClick}
   >
-    <div className="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--large">
+    {/* <div className="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--large">
       <div
         aria-hidden="true"
         className="resp-sharing-button__icon resp-sharing-button__icon--solid"
@@ -20,6 +20,6 @@ export const TwitterIcon = ({ onClick }) => (
         </svg>
       </div>
       <span className="service-label">트위터에 공유하기</span>
-    </div>
+    </div> */}
   </a>
-)
+);

@@ -1,18 +1,18 @@
 module.exports = {
-  title: `delivan.dev`,
-  description: `delivan의 블로그입니다. React와 프론트엔드 개발에 대한 글을 주로 씁니다.`,
-  author: `delivan`,
-  introduction: `배운 것을 코드와 글로 기록합니다.`,
-  siteUrl: `https://delivan.dev`,
-  sitemapPath: `https://delivan.dev/sitemap.xml`,
+  title: `Jotang's blog`,
+  description: `React와 프론트엔드 개발에 대해 배운 것을 기록합니다.`,
+  author: `Jotang`,
+  introduction: `일상과 배운 것을 기록합니다.`,
+  siteUrl: `https://taeho-jo.github.io/`,
+  sitemapPath: ``,
   robotsPolicy: [{ userAgent: '*', allow: '/' }],
   social: {
-    twitter: `delivan_yoo`, // Your Twitter account
-    github: `delivan`, // Your GitHub account
-    brunch: `@delivan`, // Your Brunch account
-    facebook: `jeonghyeok.yoo`, // Your Facebook account
+    twitter: ``, // Your Twitter account
+    github: `taeho-jo`, // Your GitHub account
+    brunch: ``, // Your Brunch account
+    facebook: ``, // Your Facebook account
   },
-  icon: `content/assets/favicon.png`, // Add your favicon
+  icon: `content/assets/borgers.jpg`, // Add your favicon
   keywords: [
     `blog`,
     `devlog`,
@@ -26,16 +26,16 @@ module.exports = {
   ],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'delivan/delivan.dev', // Your repository for archive comment
+    utterances: '', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: 'delivan',
+    buyMeACoffeeId: '',
   },
   share: {
-    facebookAppId: '2281943828568674', // Add facebookAppId for using facebook share feature v3.2
+    facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
   },
-  ga: 'UA-111652703-2', // Add your google analytics tranking ID
+  ga: '', // Add your google analytics tranking ID
 };

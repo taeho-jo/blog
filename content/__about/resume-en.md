@@ -4,7 +4,7 @@ date: 2019-08-15 11:08:26
 lang: 'en'
 ---
 
-# delivan (유정혁)
+# Jotang (조태호)
 
 <div align="center">
 
