@@ -1,10 +1,10 @@
 {
-  "name": "delivan.dev",
-  "description": "주로 책과 웹 개발에 관련된 글을 씁니다.",
+  "name": "Jotang",
+  "description": "일상을 기록합니다",
   "version": "3.0.0",
-  "author": "delivan[Jeonghyeok Yoo]<wjdgurdl272@gmail.com>",
+  "author": "Jotng[Taeho Jo]<jotan3726@gmail.com>",
   "bugs": {
-    "url": "https://github.com/delivan/delivan.dev/issues"
+    "url": "https://github.com/taeho-jo/taeho-jo/issues"
   },
   "dependencies": {
     "@fastly/performance-observer-polyfill": "^1.0.2",
@@ -61,6 +61,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-react": "^7.14.3",
     "fs-extra": "^7.0.1",
+    "gh-pages": "^2.2.0",
     "gray-matter": "^4.0.2",
     "inquirer": "^6.5.1",
     "lighthousebot": "git+https://github.com/GoogleChromeLabs/lighthousebot.git",
@@ -68,19 +69,18 @@
     "recursive-readdir": "^2.2.2",
     "signale": "^1.4.0"
   },
-  "homepage": "https://delivan.dev",
+  "homepage": "https://taeho-jo.github.io",
   "keywords": [
     "gatsby",
-    "delivan",
-    "delivan.dev",
+    "taeho-jo",
     "blog",
-    "devlog"
+    "jolog"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/delivan/delivan.dev.git"
+    "url": "git+https://github.com/taeho-jo/taeho-jo.github.io.git"
   },
   "scripts": {
     "post": "node ./cli/create-new-post.js",
@@ -92,6 +92,7 @@
     "build": "gatsby build",
     "clean": "gatsby clean",
     "lh": "lighthousebot",
-    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
+    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   }
 }
