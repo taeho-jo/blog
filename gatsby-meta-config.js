@@ -25,8 +25,8 @@ module.exports = {
     `review`,
   ],
   comment: {
-    disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: '', // Your repository for archive comment
+    disqusShortName: 'jotang', // Your disqus-short-name. check disqus.com.
+    utterances: 'https://disqus.com/by/taehojo/', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post

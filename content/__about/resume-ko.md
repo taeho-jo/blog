@@ -1,6 +1,6 @@
 ---
 title: 'about'
-date: '2019-09-09'
+date: '2020-02-14'
 lang: 'ko'
 ---
 
@@ -19,19 +19,19 @@ lang: 'ko'
 
 ### HTML, CSS
 
-- 기본적인 DOM handling(input data, event handling)에 대해 알고 있습니다.
+- ㅎㅎ
 
 ### Javascript
 
-- ES5와 ES6 이후의 문법에 익숙합니다.
+- ㅎㅎ
 
 ### React
 
-- state, props의 의미와 용도를 알고 Life cycle api를 적절한 상황에 쓸 수 있습니다.
+- ㅎ
 
 ### 기타
 
-- git, github, git flow에 익숙합니다.
+- ㅎ
 
 ## 🏢 경력
 
