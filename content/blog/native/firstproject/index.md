@@ -1,6 +1,6 @@
 ---
 title: '나의 첫번째 Native project를 위한 준비!'
-date: '2020-02-16'
+date: '2020-02-15'
 category: 'react native'
 ---
 

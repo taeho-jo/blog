@@ -1,6 +1,6 @@
 ---
 title: 'React Native 초기세팅!'
-date: '2020-02-15'
+date: '2020-02-14'
 category: 'react native'
 ---
 

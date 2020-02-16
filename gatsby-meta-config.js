@@ -1,5 +1,5 @@
 module.exports = {
-  title: `Jotang's blog`,
+  title: `Jotang`,
   description: `React와 프론트엔드 개발에 대해 배운 것을 기록합니다.`,
   author: `Jotang`,
   introduction: `일상과 배운 것을 기록합니다.`,
