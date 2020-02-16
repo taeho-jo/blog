@@ -8,7 +8,11 @@ lang: 'ko'
 
 # 조태호 ( Jotang )
 
-안녕하세요!🖐
+안녕하세요!😁<br/>
+사람과 인연을 소중하게 여깁니다.<br/>
+빠르게 변하는 IT업계에서 빠른 습득력과 응용력을 기반으로 새로운 기술을 알아가는 것을 좋아합니다.
+React 개발 환경에 관심이 있고 이를 활용해 개발하는 것에 흥미를 느낍니다.
+사용자들이 접속했을 때 즐거움을 느낄 수 있는 Interactive Web 개발에 관심이 많습니다.
 
 |            |                             |
 | :--------: | --------------------------- |
@@ -19,23 +23,64 @@ lang: 'ko'
 
 ### HTML, CSS
 
-- ㅎㅎ
+- Semantic MarkUp을 준수합니다.
+- CSS3, SASS, Styled-Components를 사용합니다.
+- float, flex, grid에 대해 알고 있습니다.
 
 ### Javascript
 
-- ㅎㅎ
+- ES5와 ES6 이후의 문법에 익숙합니다.
 
 ### React
 
-- ㅎ
+- props와 state에 대해 이해하고 사용할 줄 압니다.
+- LifeCycle method를 적적한 상황에 사용할 줄 압니다.
+- 전역상태관리(Redux, MobX)를 이용한 경험이 있습니다.
+- Hooks를 사용할 줄 압니다.
 
 ### 기타
 
-- ㅎ
+- next.js의 사용경험이 있고, SSR과 SEO에 대하여 이해하고 있습니다.
+- git, github, git flow에 익숙합니다.
+- firebase 인증기능을 이용한 경험이 있습니다.
+- react-native를 학습 중입니다.
 
 ## 🏢 경력
 
-### 어딘가 (????)
+### weCode(위코드)
+
+##### - 2019.11 ~ 2020.02
+
+### Project
+
+#### [weHome](https://youtu.be/AZ71h90ajN0) ( 19.12.23 ~ 20.01.03 )
+
+- 오늘의 집 clone Project
+  - class형 component사용 & LIfe cycle method를 통한 API 연결
+  - 집들이page 및 상품 상세page 구현
+  - toggle을 이용한 좋아요/스크랩 button event 구현
+  - 집들이page 댓글 pagination 구현
+  - onMouseover event 구현
+  - 제품 상세 옵션 선택 기능 구현
+  - React Router 이용
+  - Version Control(Git)을 이용한 협업
+
+#### JustSell ( 20.01.06 ~ 20.01.17 )
+
+- 상품 유통 운영 관리 서비스 Project
+  - Next.js, hooks, Redux, styled-components 사용
+  - 로그인 ID Validation 구현
+  - styled-components를 이용한 event 구현
+  - chart library 이용하여 통계 그래프 구현
+  - Redux를 이용한 언어 전환
+  - next/link & next/router 이용
+  - Version Control(Git)을 이용한 협업
+
+#### 기업협업 ( 20.01.28 ~ 20.02.21 )
+
+- DeusAdventures(데우스어드벤처스)
+  - Next.js, mobX, styled-components 사용
+  - firebase를 통한 인증 구현
 
 ## 🎓 학력
 
@@ -44,14 +89,5 @@ lang: 'ko'
 | **학교명** | 김해 인제대학교        |
 |  **기간**  | 08.03 ~ 15.02          |
 |  **전공**  | 국제경상학부(무역전공) |
-|  **설명**  |                        |
-
-## 🏃‍♂️ 활동
-
-|            |                  |
-| :--------: | ---------------- |
-| **활동명** | ㅎㅎㅎㅎㅎㅎㅎㅎ |
-|  **기간**  | ㅎㅎㅎㅎㅎㅎㅎㅎ |
-|  **설명**  | ㅎㅎㅎㅎㅎㅎㅎ   |
 
 </div>
