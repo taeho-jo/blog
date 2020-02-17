@@ -45,7 +45,7 @@ React 개발 환경에 관심이 있고 이를 활용해 개발하는 것에 흥
 - firebase 인증기능을 이용한 경험이 있습니다.
 - react-native를 학습 중입니다.
 
-## 🏢 경력
+## 💻 개발 경력
 
 ### weCode(위코드)
 
@@ -53,24 +53,21 @@ React 개발 환경에 관심이 있고 이를 활용해 개발하는 것에 흥
 
 ### Project
 
-#### [weHome](https://youtu.be/AZ71h90ajN0) ( 19.12.23 ~ 20.01.03 )
+#### weHome [(github)](https://github.com/wecode-bootcamp-korea/weHome_frontend) [(youtube)](https://youtu.be/AZ71h90ajN0) ( 19.12.23 ~ 20.01.03 )
 
 - 오늘의 집 clone Project
-  - class형 component사용 & LIfe cycle method를 통한 API 연결
   - 집들이page 및 상품 상세page 구현
-  - toggle을 이용한 좋아요/스크랩 button event 구현
   - 집들이page 댓글 pagination 구현
-  - onMouseover event 구현
   - 제품 상세 옵션 선택 기능 구현
   - React Router 이용
   - Version Control(Git)을 이용한 협업
 
-#### JustSell ( 20.01.06 ~ 20.01.17 )
+#### JustSell [(github)](https://github.com/wecode-bootcamp-korea/justSell_frontend) ( 20.01.06 ~ 20.01.17 )
 
 - 상품 유통 운영 관리 서비스 Project
   - Next.js, hooks, Redux, styled-components 사용
+  - 공통 nav / 로그인 / admin홈 / report page 구현
   - 로그인 ID Validation 구현
-  - styled-components를 이용한 event 구현
   - chart library 이용하여 통계 그래프 구현
   - Redux를 이용한 언어 전환
   - next/link & next/router 이용
@@ -80,7 +77,11 @@ React 개발 환경에 관심이 있고 이를 활용해 개발하는 것에 흥
 
 - DeusAdventures(데우스어드벤처스)
   - Next.js, mobX, styled-components 사용
-  - firebase를 통한 인증 구현
+  - firebase를 통한 인증 page 구현
+
+## 🏢 이전 경력
+
+### 서원유통 ( 14.08 ~ 19.08 )
 
 ## 🎓 학력
 
