@@ -17,7 +17,7 @@ React 개발 환경에 관심이 많고 이를 활용해 개발하는 것에 흥
 |            |                             |
 | :--------: | --------------------------- |
 | **Github** | https://github.com/taeho-jo |
-|  **Blog**  | https://taeho-jo.gitghub.io |
+|  **Blog**  | https://taeho-jo.github.io  |
 | **E-mail** | jotang3726@gmail.com        |
 
 ## 🛠 사용 기술
@@ -82,9 +82,9 @@ firebase의 인증을 접할 수 있었습니다.
 
 React, next.js, mobX, styled-components
 
-### JustSell ( 20.01.06 ~ 20.01.17 )
+## 2차 Project ( 20.01.06 ~ 20.01.17 )
 
-[github](https://github.com/wecode-bootcamp-korea/justSell_frontend)
+### JustSell [(github)](https://github.com/wecode-bootcamp-korea/justSell_frontend)
 
 **Description**
 
@@ -104,9 +104,9 @@ SSR과 SEO에 대해 이해하게 되었고, 라이브러리의 사용 대신 re
 
 next.js, redux, styled-components
 
-### weHome ( 19.12.23 ~ 20.01.03 )
+## 1차 Project ( 19.12.23 ~ 20.01.03 )
 
-[github](https://github.com/wecode-bootcamp-korea/weHome_frontend) / [youtube](https://youtu.be/AZ71h90ajN0)
+### weHome [(github)](https://github.com/wecode-bootcamp-korea/weHome_frontend) / [(youtube)](https://youtu.be/AZ71h90ajN0)
 
 **Description**
 
