@@ -11,12 +11,13 @@ lang: 'ko'
 안녕하세요!😁<br/>
 사람과 인연을 소중하게 여깁니다.<br/>
 빠르게 변하는 IT업계에서 빠른 습득력과 응용력을 기반으로 새로운 기술을 알아가는 것을 좋아합니다.
-React 개발 환경에 관심이 있고 이를 활용해 개발하는 것에 흥미를 느낍니다.
+React 개발 환경에 관심이 많고 이를 활용해 개발하는 것에 흥미를 느낍니다.
 사용자들이 접속했을 때 즐거움을 느낄 수 있는 Interactive Web 개발에 관심이 많습니다.
 
 |            |                             |
 | :--------: | --------------------------- |
 | **Github** | https://github.com/taeho-jo |
+|  **Blog**  | https://taeho-jo.gitghub.io |
 | **E-mail** | jotang3726@gmail.com        |
 
 ## 🛠 사용 기술
@@ -48,7 +49,6 @@ React 개발 환경에 관심이 있고 이를 활용해 개발하는 것에 흥
 - Version Control(Git)을 이용한 협업에 익숙합니다.
 - firebase 인증기능을 이용한 경험이 있습니다.
 - typescript, react-native를 학습 중입니다.
-- AWS EC2 서버를 이용한 배포 경험이 있습니다.
 
 ## 💻 개발 경력
 
@@ -58,33 +58,71 @@ React 개발 환경에 관심이 있고 이를 활용해 개발하는 것에 흥
 
 ### Project
 
-#### Internship ( 20.01.28 ~ 20.02.21 )
+## Internship ( 20.01.28 ~ 20.02.21 )
 
-- DeusAdventures(데우스어드벤처스)
-  - Launcher Page 리뉴얼 작업(React)
-  - i18n 라이브러리 사용
-  - Responsive Web
-  - firebase를 통한 인증 page 구현
-  - Next.js, mobX, styled-components 사용
+### DeusAdventures(데우스어드벤처스)
 
-#### JustSell [(github)](https://github.com/wecode-bootcamp-korea/justSell_frontend) ( 20.01.06 ~ 20.01.17 )
+[Launcher github](https://github.com/taeho-jo/deus_teaser) / [auth github](https://github.com/taeho-jo/deus_adventures)
 
-- 상품 유통 운영 관리 서비스 Project
-  - Next.js, hooks, Redux, styled-components 사용
-  - 공통 nav / 로그인 / admin홈 / report page 구현
-  - chart library 이용하여 통계 그래프 구현
-  - Redux를 이용한 언어 전환
-  - next/link & next/router 이용
-  - Version Control(Git)을 이용한 협업
+**Description**
 
-#### weHome [(github)](https://github.com/wecode-bootcamp-korea/weHome_frontend) [(youtube)](https://youtu.be/AZ71h90ajN0) ( 19.12.23 ~ 20.01.03 )
+런칭 전 Launcher Page를 React로 리뉴얼을 하였고,
+인증부분의 구조를 잡으며 next.js의 초기세팅과
+firebase의 인증을 접할 수 있었습니다.
 
-- 오늘의 집 clone Project
-  - 집들이page 및 상품 상세page 구현
-  - 집들이page 댓글 pagination 구현
-  - 제품 상세 옵션 선택 기능 구현
-  - React Router 이용
-  - Version Control(Git)을 이용한 협업
+**I Did**
+
+- React를 이용한 Launcher page 리뉴얼
+- i18n 라이브러리를 통한 언어 전환
+- Responsive Web
+- next.js 초기 세팅 및 구조잡기 진행 (mobX 적용, next-i18next)
+- firebase를 통한 인증 기능
+
+**Stack**
+
+React, next.js, mobX, styled-components
+
+### JustSell ( 20.01.06 ~ 20.01.17 )
+
+[github](https://github.com/wecode-bootcamp-korea/justSell_frontend)
+
+**Description**
+
+JustSell은 상품 유통 운영 관리 서비스로 next.js를 사용하였습니다.
+SSR과 SEO에 대해 이해하게 되었고, 라이브러리의 사용 대신 redux를
+이용하여 언어전환을 하면서 redux에 대해 이해를 하였습니다.
+
+**I Did**
+
+- 공통 nav 작업
+- Login 기능 구현
+- Redux를 이용한 언어 전환
+- Version Control(Git)을 이용한 협업
+- chart library 이용하여 통계 그래프 구현
+
+**Stack**
+
+next.js, redux, styled-components
+
+### weHome ( 19.12.23 ~ 20.01.03 )
+
+[github](https://github.com/wecode-bootcamp-korea/weHome_frontend) / [youtube](https://youtu.be/AZ71h90ajN0)
+
+**Description**
+
+weHome은 오늘의 집 clone 프로젝트로 props와 state를 이해하게 되었고,
+API를 주고받으며 life cycle method에 대한 이해를 하였습니다.
+layout구조를 잡으며 flex-box를 이해 할 수 있었습니다.
+
+**I Did**
+
+- 집들이 상세 page & 상품 상세 page
+- 댓글 pagination
+- 제품 상세 옵션 선택 기능
+
+**Stack**
+
+react, scss
 
 ## 🏢 이전 경력
 
