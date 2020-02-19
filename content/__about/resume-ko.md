@@ -64,9 +64,10 @@ React 개발 환경에 관심이 많고 이를 활용해 개발하는 것에 흥
 
 **Description**
 
-런칭 전 Launcher Page를 React로 리뉴얼을 하였고,
-인증부분의 구조를 잡으며 next.js의 초기세팅과
-firebase의 인증을 접할 수 있었습니다.
+런칭 전 Launcher Page를 React로 리뉴얼을 하였고, responsive web으로 작업하여
+반응형에 대해 더욱 잘 이해하게 되었습니다.
+next.js 초기 세팅을 진행하면서 next.js를 조금 더 이해할 수 있었고, 전역관리로 mobx를 사용하였습니다.
+인증부분의 구조를 잡으며 firebase의 인증을 접할 수 있었습니다.
 
 **I Did**
 
@@ -108,7 +109,7 @@ next.js, redux, styled-components
 
 **Description**
 
-weHome은 오늘의 집 clone 프로젝트로 props와 state를 이해하게 되었고,
+weHome은 오늘의 집 clone Project로 props와 state를 이해하게 되었고,
 API를 주고받으며 life cycle method에 대한 이해를 하였습니다.
 layout구조를 잡으며 flex-box를 이해 할 수 있었습니다.
 
