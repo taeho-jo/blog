@@ -62,15 +62,14 @@ React 개발 환경에 관심이 많고 이를 활용해 개발하는 것에 흥
 
 ![Launcher](../assets/deus.png)
 
-[Launcher github](https://github.com/taeho-jo/deus_teaser) & [youtube](https://youtu.be/7EV1XoiVOi8)
-
-[auth github](https://github.com/taeho-jo/deus_adventures) & [youtube](https://youtu.be/8cSX7J_tbAo)
+[Launcher github](https://github.com/taeho-jo/deus_teaser) & [youtube](https://youtu.be/7EV1XoiVOi8) / [auth github](https://github.com/taeho-jo/deus_adventures) & [youtube](https://youtu.be/8cSX7J_tbAo)
 
 **Description**
 
-런칭 전 Launcher Page를 React로 리뉴얼을 하였고, responsive web으로 작업하여
-반응형에 대해 더욱 잘 이해하게 되었습니다.
-next.js 초기 세팅을 진행하면서 next.js를 더 이해할 수 있었고, 전역관리로 mobx를 사용하였습니다.
+런칭 전 Launcher Page를 React로 리뉴얼을 하였고, 실제 web site 제작 전 기초세팅과
+Auth기능의 구조를 잡았습니다.
+Launcher Page는 responsive web으로 작업하여 반응형에 대해 더욱 잘 이해 할 수 있었습니다.
+next.js 초기 세팅을 진행하면서 next.js를 더 이해할 수 있었고, 전역관리로는 mobx를 사용하였습니다.
 인증부분의 구조를 잡으며 firebase의 이메일, 소셜 로그인, 비밀번호 찾기 등의 인증기능을 이용하였습니다.
 
 **I Did**
