@@ -62,7 +62,7 @@ React 개발 환경에 관심이 많고 이를 활용해 개발하는 것에 흥
 
 ![Launcher](../assets/deus.png)
 
-[Launcher github](https://github.com/taeho-jo/deus_teaser) & [youtube](https://youtu.be/r7JD1rFBtkw) / [auth github](https://github.com/taeho-jo/deus_adventures) & [youtube](https://youtu.be/8cSX7J_tbAo)
+[Launcher github](https://github.com/taeho-jo/deus_teaser) & [Homepage](http://deusadventures.com/) / [auth github](https://github.com/taeho-jo/deus_adventures) & [youtube](https://youtu.be/8cSX7J_tbAo)
 
 **Description**
 
@@ -109,8 +109,9 @@ SSR과 SEO에 대해 이해하게 되었고, 라이브러리의 사용 대신 re
 next.js, redux, styled-components
 
 <!-- ![](../assets/ee.JPG)
-![](../assets/ff.JPG) -->
-<!-- ![](../assets/ee.JPG) -->
+![](../assets/ff.JPG)
+
+![](../assets/ee.JPG) -->
 
 ## 1차 Project ( 19.12.23 ~ 20.01.03 )
 
