@@ -14,11 +14,12 @@ lang: 'ko'
 React 개발 환경에 관심이 많고 이를 활용해 개발하는 것에 흥미를 느낍니다.
 사용자들이 접속했을 때 즐거움을 느낄 수 있는 Interactive Web 개발에 관심이 많습니다.
 
-|            |                             |
-| :--------: | --------------------------- |
-| **Github** | https://github.com/taeho-jo |
-|  **Blog**  | https://taeho-jo.github.io  |
-| **E-mail** | jotang3726@gmail.com        |
+|               |                             |
+| :-----------: | --------------------------- |
+| **Portfolio** | https://taeho.netlify.com   |
+|  **Github**   | https://github.com/taeho-jo |
+|   **Blog**    | https://taeho-jo.github.io  |
+|  **E-mail**   | jotang3726@gmail.com        |
 
 ## 🛠 사용 기술
 
