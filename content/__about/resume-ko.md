@@ -38,6 +38,7 @@ React 개발 환경에 관심이 많고 이를 활용해 개발하는 것에 흥
 
 ### React
 
+- Virtual DOM을 이해하고 있습니다.
 - SPA를 이해하고 있습니다.
 - props와 state에 대해 이해하고 사용할 줄 압니다.
 - LifeCycle method를 적절한 상황에 사용할 줄 압니다.
@@ -95,24 +96,28 @@ React, next.js, mobX, styled-components
 
 JustSell은 상품 유통 운영 관리 서비스로 next.js를 사용하였습니다.
 SSR과 SEO에 대해 이해하게 되었고, 라이브러리의 사용 대신 redux를
-이용하여 언어전환을 하면서 redux에 대해 이해를 하였습니다.
+이용하여 언어전환을 하면서 redux에 대해 이해를 하였습니다. hooks를 사용하여
+useState, useEffect 등에 대해 이해 할 수 있었고,
+로그인 기능은 JWT token을 기반으로 구현하였습니다.
 
 **I Did**
 
 - 공통 nav 작업
-- Login 기능 구현
+- JWT token을 기반으로 Login 기능 구현
 - Redux를 이용한 언어 전환
 - Version Control(Git)을 이용한 협업
 - chart library 이용하여 통계 그래프 구현
 
 **Stack**
 
-next.js, redux, styled-components
+next.js, hooks redux, styled-components
 
 <!-- ![](../assets/ee.JPG)
-![](../assets/ff.JPG)
-
 ![](../assets/ee.JPG) -->
+
+<!-- ![](../assets/ff.JPG) -->
+
+<!-- ![](../assets/ee.JPG) -->
 
 ## 1차 Project ( 19.12.23 ~ 20.01.03 )
 
@@ -122,8 +127,11 @@ next.js, redux, styled-components
 
 **Description**
 
-weHome은 오늘의 집 clone Project로 props와 state를 이해하게 되었고,
+weHome은 오늘의 집 clone Project로 class형 components를 사용하였고,  
+react의 props와 state의 개념을 이해하게 되었고,
 API를 주고받으며 life cycle method에 대한 이해를 하였습니다.
+react의 onClick, onChange 등 여러가지 event를 구현하며 event에 관하여
+충분한 이해를 하였습니다.
 layout구조를 잡으며 flex-box를 이해 할 수 있었습니다.
 
 **I Did**
@@ -131,6 +139,7 @@ layout구조를 잡으며 flex-box를 이해 할 수 있었습니다.
 - 집들이 상세 page & 상품 상세 page
 - 댓글 pagination
 - 제품 상세 옵션 선택 기능
+- react-router 사용
 
 **Stack**
 
