@@ -19,7 +19,7 @@ Context API를 이용하여 todoList App을 만들어보려고 합니다.
 
 - @type/index.d.ts 파일에 타입을 지정해주게 되면, 프로젝트 전반에 걸쳐 타입을 사용할 수 있게 된다.
 
-```tsx
+```js
 interface ITodoListContext {
   todoList: Array<string>; // todoList는 string인 array
   addTodoList: (todo: string) => void;
@@ -33,7 +33,7 @@ interface ITodoListContext {
 
 - createContext로 Context를 생성한다.
 
-```tsx
+```js
 import React, { createContext, useState, useEffect } from 'react';
 import AsyncStorage from '@react-native-community/async-storage';
 
@@ -41,14 +41,17 @@ interface Props {
   children: JSX.Element | Array<JSX.Element>;
 }
 
-const TodoListContext = createContext<ITodoListContext>({
-  todoList: [],
-  addTodoList: (todo: string): void => {},
-  removeTodoList: (index: number): void => {},
-});
+const TodoListContext =
+  createContext <
+  ITodoListContext >
+  {
+    todoList: [],
+    addTodoList: (todo: string): void => {},
+    removeTodoList: (index: number): void => {},
+  };
 
 const TodoListContextProvider = ({ children }: Props) => {
-  const [todoList, setTodoList] = useState<Array<string>>([]);
+  const [todoList, setTodoList] = useState < Array < string >> [];
 
   const addTodoList = (todo: string): void => {
     const list = [...todoList, todo];
@@ -105,7 +108,7 @@ export { TodoListContextProvider, TodoListContext };
 
 ### provider로 감싸기
 
-```tsx
+```js
 import React from 'react';
 import styled from 'styled-components/native';
 
@@ -128,7 +131,7 @@ export default App;
 
 ### useContext
 
-```tsx
+```js
 import React, { useContext } from 'react';
 import { FlatList } from 'react-native';
 import styled from 'styled-components/native';
