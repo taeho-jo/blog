@@ -338,12 +338,123 @@ union = false; // error
 ```
 
 ### 13. Enum(열거형)
+**"열거형은 숫자값 집합에 이름을 지정한 것"** 라고 표현할 수 있고 숫자 혹은 문자열 값 집합에 이름(Member)을 부여할 수 있는 타입으로, **값의 종류가 일정한 범위로 정해져 있는 경우 유용**하다. 그리고 **enum으로 정의한 모든 변수들은 기본적으로 읽기 전용**이다. 예시를 통해 더 자세히 알아보도록 하겠다.
 
-숫자 혹은 문자열 값 집합에 이름(Member)을 부여할 수 있는 타입이다.
-값의 종류가 일정한 범위로 정해져 있는 경우 유용하다.
+먼저 enum 타입을 만들어보고, console에 찍어보자.
+```ts
+enum Week {
+ Sun,
+ Mon,
+ Tue,
+ Wed,
+ Thu,
+ Fri,
+ Sat
+}
+console.log(Week)
+/*
+{
+  '0': 'SUn',
+  '1': 'Mon',
+  '2': 'Tue',
+  '3': 'Wed',
+  '4': 'Thu',
+  '5': 'Fri',
+  '6': 'Sat',
+  SUn: 0,
+  Mon: 1,
+  Tue: 2,
+  Wed: 3,
+  Thu: 4,
+  Fri: 5,
+  Sat: 6
+}
+*/
+```
+결국 Week라는 열거형 데이터는 객체의 형태로 되어있다.(key와 value의 형태)
 
-##### enum에 대해서 아직 이해가 부족하여, 추후에 업데이트 하도록 하겠습니다.
+특이한 점은 리버스매핑을 지원한다. 리버스매핑이라는 것은 value의 값으로 key값에 접근 할 수 있다.
+```ts
+console.log(Week.Mon) // 1
+console.log(Week[0]) // Sun
+```
+
+JavaScript Run time에서도 사용되는 하나의 변수로 볼수도 있다.
+```ts
+function setWeek(week: Week) {
+ // ....
+}
+setWeek(Week.Fri)
+```
+
+enum으로 만들어진 변수는 내부적으로 값이 할당된다. 따로 지정해 주지 않는다면 값은 0부터 시작해 1씩 증가하는 형태이다. 따로 지정을 해주게 되면 지정된 변수 이후 부터는 지정된 숫자부터 1씩 증가한다.
+```ts
+enum Week {
+ Sun, // 0
+ Mon, // 1
+ Tue = 10, // 10
+ Wed, //11
+ Thu, //12
+ Fri, //13
+ Sat //14
+}
+```
+
+문자열로 값을 선언할 수 있지만, 이 경우에는 리버스매핑이 지원되지 않는다.
+```ts
+enum Name {
+ Jotang, // 0
+ Jaeyoung, // 1
+ Dongtak = 'dongtak'
+}
+console.log(Name[0]) // Jotang
+console.log(Name['dongtak']) // undefined
+```
+
+enum은 내부에 선언된 변수에 접근할 수 있다.
+```ts
+enum User {
+ Jotang = 32,
+ Jaeyoung = 26,
+ Daeun = Jotang + Jaeyoung,
+ Sangjin = Jotang * 2
+}
+console.log(User.Daeun) // 58
+console.log(User.Sangjin) // 64
+```
+
+## const와 enum
+##### 사실 이 부분에 대한 활용도나 이해는 부족합니다. 실제로 사용해보며 좀 더 학습하여 보완하도록 하겠습니다.
+
+const와 함께 사용할 수 있다. 다만 const로 사용되면 위에서 처럼 내부에서 선언된 변수에는 접근이 가능하지만, 외부에서 선언된 변수에는 접근하라 수 없다.
+컴파일 타임에 평가하지 못한 표현식은 런타임에 평가할 수 밖에 없고, 그렇게 되면 항상 같은 값임을 보장할 수가 없기 때문이다.
+```ts
+const age = 50
+
+const enum User {
+ Jotang = 32,
+ Jaeyoung = 26,
+ Daeun = Jotang + Jaeyoung,
+ Sangjin = age
+}
+console.log(User.Daeun) // 58
+console.log(User.Sangjin) // error
+```
+
+const와 enum을 함께 사용하는 방법에 대해서 알아보자.
+```ts
+enum User {
+ Jotang = 32,
+ Jaeyoung = 26,
+ Daeun = Jotang + Jaeyoung,
+ Sangjin = Jotang * 2
+}
+const user1: User = User.Jotang
+const user2: User = User.Daeun
+
+console.log(user1, user2) // 32, 58
+```
+
 
 ##### 오늘은 TypeScript가 무엇인지 type의 종류에는 무엇이 있는지 알아보았다.
-
 ##### 다음에는 타입추론(Inference), 타입단언(Assertions), 타입가드(Guards)에 대해서 공부해보겠습니다.
