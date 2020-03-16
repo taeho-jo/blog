@@ -468,6 +468,6 @@ const user2: User = User.Daeun;
 console.log(user1, user2); // 32, 58
 ```
 
-##### 오늘은 TypeScript가 무엇인지 type의 종류에는 무엇이 있는지 알아보았다.
+##### 오늘은 TypeScript가 무엇인지 type의 종류에는 무엇이 있는지 알아보았다
 
-##### 다음에는 타입추론(Inference), 타입단언(Assertions), 타입가드(Guards)에 대해서 공부해보겠습니다.
+##### 다음에는 타입추론(Inference), 타입단언(Assertions), 타입가드(Guards)에 대해서 공부해보겠습니다
