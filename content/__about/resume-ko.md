@@ -90,7 +90,7 @@ React, next.js, mobX, styled-components
 
 ![](../assets/justsell.png)
 
-### JustSell [(github)](https://github.com/wecode-bootcamp-korea/justSell_frontend)
+### JustSell [github](https://github.com/wecode-bootcamp-korea/justSell_frontend) / [youtube](https://youtu.be/YjyR5L-loWw)
 
 **Description**
 
@@ -123,7 +123,7 @@ next.js, hooks redux, styled-components
 
 ![](../assets/wehome.png)
 
-### weHome [(github)](https://github.com/wecode-bootcamp-korea/weHome_frontend) / [(youtube)](https://youtu.be/AZ71h90ajN0)
+### weHome [github](https://github.com/wecode-bootcamp-korea/weHome_frontend) / [youtube](https://youtu.be/AZ71h90ajN0)
 
 **Description**
 
