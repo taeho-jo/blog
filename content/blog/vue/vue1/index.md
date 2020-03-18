@@ -1,6 +1,6 @@
 ---
 title: 'Vue의 시작'
-date: '2020-03-118'
+date: '2020-03-18'
 category: 'Vue'
 ---
 
