@@ -68,7 +68,7 @@ ECS에는 두 가지의 방식이 있는데 EC2와 Fargate이다.
 
 # RDS(Relational Database Service)
 
-관계형 데이터베이스르 서비스로 제공하는 제품, MariaDB, MySQL, PostgreSQL, Oracle등을 직접 다루지 않고 AWS에서 제공해준다.
+관계형 데이터베이스를 서비스로 제공하는 제품, MariaDB, MySQL, PostgreSQL, Oracle등을 직접 다루지 않고 AWS에서 제공해준다.
 
 ### 레디스(Radis)
 
