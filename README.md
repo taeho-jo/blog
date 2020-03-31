@@ -12,6 +12,8 @@
 
 - 4분기 별로 회고를 기록합니다.
 
+#### content -> blog 폴더 또는 [Jotang's blog](https://taehoblog.netlify.com/)
+
 #### 많이 부족한 개발자의 블로그입니다.
 
 #### 틀린부분이 있다면 댓글로 알려주시면 다시! 공부하겠습니다.
