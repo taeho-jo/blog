@@ -1,5 +1,5 @@
 ---
-title: 'reduce의 활'
+title: 'reduce의 활용'
 date: '2020-04-09'
 category: 'JavaScript'
 ---
