@@ -6,7 +6,7 @@ category: 'JavaScript'
 
 ### 1.2 map()
 
-- 배열을 반복, 배열 안의 각 요소를 변환 할 때 사용
+- 배열을 반복, 배열 안의 각 요소를 변환 할 때 사용.
 - map() method 의 return 값은 수정된 값으로 다시 생성된 배열.
 - array type의 데이터 요소 갯수 만큼 반복
 - 반복할 때마다 실행할 함수를 parameter로 전달
