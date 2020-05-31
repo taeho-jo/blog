@@ -1,5 +1,5 @@
 ---
-title: 'SQL의 시작_두번'
+title: 'SQL의 시작_두번째'
 date: '2020-05-31'
 category: 'SQL'
 ---
