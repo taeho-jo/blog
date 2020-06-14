@@ -90,7 +90,7 @@ $sudo vi mysqld.cnf
 
 ![](https://images.velog.io/images/jotang/post/b1e6a6b5-1280-4609-a95c-c1c3f6530136/image.png)
 
-#을 붙여서 주석처리를 하고, 
+`#을 붙여서 주석처리`를 하고, 
 `esc -> :wq` 를 통해 수정화면에서 나옵니다.
 
 이제 외부에서 접속할 계정을 만들기 위해 mysql에 접속하여 계정을 생성하고, 권한을 부여해줍니다.
