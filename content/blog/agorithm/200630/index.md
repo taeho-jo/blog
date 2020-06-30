@@ -1,7 +1,7 @@
 ---
 title: '알고리즘, 200630'
 date: '2020-06-30'
-category: 'css'
+category: 'agorithm'
 ---
 
 # 이진연산, 인코딩
