@@ -10,66 +10,52 @@ lang: 'ko'
 
 안녕하세요!😁<br/>
 사람과 인연을 소중하게 여깁니다.<br/>
-빠르게 변하는 IT업계에서 빠른 습득력과 응용력을 기반으로 새로운 기술을 알아가는 것을 좋아합니다.
-React 개발 환경에 관심이 많고 이를 활용해 개발하는 것에 흥미를 느낍니다.
-사용자들이 접속했을 때 즐거움을 느낄 수 있는 Interactive Web 개발에 관심이 많습니다.
+빠르게 변하는 IT업계에서 빠른 습득력과 응용력을 기반으로 새로운 기술을 알아가는 것을 좋아합니다. React 개발 환경에 관심이 많고, 이를 활용하여 개발하는 것을 좋아합니다. 현재 vue.js를 사 용하여 개발을 진행하고 있습니다.
+사용자들이 접속 했을 때 즐거움을 느낄 수 있게 하는 개발자가 되고 싶습니다.
 
 |               |                                |
 | :-----------: | ------------------------------ |
-| **Portfolio** | https://taeho.netlify.com      |
+| **Portfolio** | https://taeho.netlify.app      |
 |  **Github**   | https://github.com/taeho-jo    |
-|   **Blog**    | https://taehoblog.netlify.com/ |
+|   **Blog**    | https://taehoblog.netlify.app/ |
 |  **E-mail**   | jotang3726@gmail.com           |
 
-## 🛠 사용 기술
+## 🛠 Skill Stack
 
 ### HTML, CSS
-
-- Semantic MarkUp을 준수합니다.
-- Document Object Model(DOM)을 이해하고 있습니다.
-- CSS3, SASS, Styled-Components를 사용합니다.
-- float, flex, grid에 대해 알고 있습니다.
-- Responsive Web을 이해하고 있습니다.
+- Semantic MarkUp
+- CSS3, SCSS, Styled-Components 
+- flex-box
+- Responsive Web
 
 ### Javascript
-
 - ES5와 ES6 이후의 문법에 익숙합니다.
-- Promise, async/await 비동기 처리를 이해하고 있습니다.
+- Promise, async/await
 
 ### React
-
-- Virtual DOM을 이해하고 있습니다.
 - SPA를 이해하고 있습니다.
-- props와 state에 대해 이해하고 사용할 줄 압니다.
-- LifeCycle method를 적절한 상황에 사용할 줄 압니다.
-- 전역상태관리(Redux, MobX)를 이용한 경험이 있습니다.
-- Hooks를 사용할 줄 압니다.
+- class Components / Hooks
+- React의 LifeCycle method를 알고 있습니다. 
+- 전역 상태 관리 (redux, mobX)
 
 ### Vue
-- template문법을 이해하고 있습니다.
-- vue의 LifeCycle을 이해하고 있습니다.
-- vuex를 이용한 전역 상태 관리를 한 경험이 있습니다.
+- vue의 LifeCycle을 이해하고 있습니다. 
+- vuex를 이용한 전역 상태 관리를 할 줄 압니다.
 
-### 기타
 
-- next.js의 사용경험이 있고, SSR과 SEO에 대하여 이해하고 있습니다.
-- Version Control(Git)을 이용한 협업에 익숙합니다.
-- firebase 인증기능을 이용한 경험이 있습니다.
-- typescript, react-native를 학습 중입니다.
-
-## 💻 개발 경력
+## 💻 Work Experience
 
 ### CIZION(시지온)
 
 ##### - 2020.03 ~ 현재
-
-### weCode(위코드)
-
-##### - 2019.11 ~ 2020.02
-
-## Internship ( 20.01.28 ~ 20.02.21 )
+- Vue.js를 사용하여 통계 어드민 페이지 개발.
+- 통계 그래프 및 통계 테이블 개선 작업.
+- 상품 랜딩페이지 UI/UX 개선 작업.
+- 어트랙트 솔루션 기능 개발(구매 태그)
+- Google Analytics를 사용하여 사용자 행동분석 및 A/B 테스트 진행.
 
 ### DeusAdventures(데우스어드벤처스)
+##### Internship (20.01.28 ~ 20.02.21)
 
 ![Launcher](../assets/deus.png)
 
@@ -94,6 +80,12 @@ next.js 초기 세팅을 진행하면서 next.js를 더 이해할 수 있었고,
 **Stack**
 
 React, next.js, mobX, styled-components
+
+## ⌨ ️Education
+
+### weCode(위코드)
+
+##### - 2019.11 ~ 2020.02
 
 ## 2차 Project ( 20.01.06 ~ 20.01.17 )
 
