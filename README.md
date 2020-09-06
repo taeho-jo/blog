@@ -10,9 +10,9 @@
 
 - 개발을 하면서 느낀점을 기록합니다
 
-- 4분기 별로 회고를 기록합니다.
+- 분기 별로 회고를 기록합니다.
 
-#### content -> blog 폴더 또는 [Jotang's blog](https://taehoblog.netlify.com/)
+#### content -> blog 폴더 또는 [Jotang's blog](https://taehoblog.netlify.app/)
 
 #### 많이 부족한 개발자의 블로그입니다.
 
