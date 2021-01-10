@@ -27,7 +27,7 @@ category: 'webpack'
 
 ```js
 module.exports = {
-  entry: "./src/index.js'
+  entry: "./src/newBlog.js'
 }
 ```
 html에서 사용할 자바스크립트의 시작점은 src/index.js 파일이다. src/index.js가 결국 entry인 것이다.
@@ -37,7 +37,7 @@ html에서 사용할 자바스크립트의 시작점은 src/index.js 파일이�
 ```js
 module.exports = {
   output: {
-    filename: 'index.js',
+    filename: 'newBlog.js',
     path: './build'
   }
 }
@@ -167,9 +167,9 @@ html과 css를 위한 플러그인
 const path = require('path')
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/newBlog.js',
   output: {
-    filename: 'index.js',
+    filename: 'newBlog.js',
     path: path.resolve(__dirname + '/build')
   },
   mode: 'none'
@@ -228,9 +228,9 @@ const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/newBlog.js',
   output: {
-    filename: 'index.js',
+    filename: 'newBlog.js',
     path: path.resolve(__dirname + '/build')
   },
   mode: 'none',
@@ -249,8 +249,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: './public/index.html',
-      filename: 'index.html'
+      template: './public/newBlog.html',
+      filename: 'newBlog.html'
     })
   ]
 };
@@ -300,9 +300,9 @@ const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/newBlog.js',
   output: {
-    filename: 'index.js',
+    filename: 'newBlog.js',
     path: path.resolve(__dirname + '/build')
   },
   mode: 'none',
@@ -326,8 +326,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: './public/index.html',
-      filename: 'index.html'
+      template: './public/newBlog.html',
+      filename: 'newBlog.html'
     })
   ]
 };
@@ -366,9 +366,9 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/newBlog.js',
   output: {
-    filename: 'index.js',
+    filename: 'newBlog.js',
     path: path.resolve(__dirname + '/build')
   },
   mode: 'none',
@@ -399,8 +399,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: './public/index.html',
-      filename: 'index.html'
+      template: './public/newBlog.html',
+      filename: 'newBlog.html'
     }),
     new MiniCssExtractPlugin({
       filename: 'style.css'
@@ -418,9 +418,9 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/newBlog.js',
   output: {
-    filename: 'index.js',
+    filename: 'newBlog.js',
     path: path.resolve(__dirname + '/build')
   },
   mode: 'none',
@@ -452,8 +452,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: './public/index.html',
-      filename: 'index.html'
+      template: './public/newBlog.html',
+      filename: 'newBlog.html'
     }),
     new MiniCssExtractPlugin({
       filename: 'style.css'
@@ -473,14 +473,14 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/newBlog.js',
   output: {
-    filename: 'index.js',
+    filename: 'newBlog.js',
     path: path.resolve(__dirname + '/build')
   },
   devServer: {
     contentBase: path.resolve('./build'),
-    index: 'index.html',
+    index: 'newBlog.html',
     port: 9000
   },
   mode: 'none',
@@ -510,11 +510,11 @@ clean-webpack-plugin는 빌드가 될 때 마다 사용하지 않는 파일들�
 ```js
 plugins: [
 	new HtmlWebPackPlugin({
-		template: './public/index.html', // public/index.html 파일을 읽는다.
-		filename: 'index.html' // output으로 출력할 파일은 index.html 이다.
+		template: './public/newBlog.html', // public/newBlog.html 파일을 읽는다.
+		filename: 'newBlog.html' // output으로 출력할 파일은 newBlog.html 이다.
 	}),
 	new MiniCssExtractPlugin({
-		filename: 'index.css'
+		filename: 'newBlog.css'
 	})
 ]
 ```
@@ -525,11 +525,11 @@ module.exports = {
  	...,
   plugins: [
     new HtmlWebPackPlugin({
-      template: './public/index.html', // public/index.html 파일을 읽는다.
-      filename: 'index.html' // output으로 출력할 파일은 index.html 이다.
+      template: './public/newBlog.html', // public/newBlog.html 파일을 읽는다.
+      filename: 'newBlog.html' // output으로 출력할 파일은 newBlog.html 이다.
     }),
     new MiniCssExtractPlugin({
-      filename: 'index.css'
+      filename: 'newBlog.css'
     }),
     new CleanWebpackPlugin()
   ]

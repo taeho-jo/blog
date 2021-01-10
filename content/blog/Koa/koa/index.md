@@ -130,7 +130,7 @@ src/ 디렉토리에서 코드변화가 감지되면 `자동적으로 재시작`
  (...)
   "scripts":{
     "start": "node src",
-    "dev": "nodemon --watch src/ src/index.js"
+    "dev": "nodemon --watch src/ src/newBlog.js"
   }
 }
 ```

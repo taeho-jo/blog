@@ -30,7 +30,7 @@ console.log(squared);
 <!-- HTML 문서 내부에 작성 -->
 <script>
   function say() {
-   		console.log('여기는 index.html파일입니다.')
+   		console.log('여기는 newBlog.html파일입니다.')
 </script>
 <!-- HTML 문서에 링크 -->
 <script src="index.js"></script>
@@ -47,7 +47,7 @@ console.log(squared);
     <script src="index.js"></script>
     <script>
       function say() {
-        console.log('여기는 index.html파일입니다.');
+        console.log('여기는 newBlog.html파일입니다.');
       }
       sayHi();
     </script>

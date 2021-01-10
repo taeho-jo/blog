@@ -54,7 +54,7 @@ main.js에 번역해야하는 모든 부분을 작성하게 되면 코드가 지
 `locales`폴더를 생성하고 `index.js` 파일을 생성하고 그 안에 작성한다.
 
 ```js
-// locales/index.js
+// locales/newBlog.js
 
 export const messages = {
   en: {
@@ -97,7 +97,7 @@ vue-i18n은 날짜와 통화표시까지 지원해주고 있다.
 
 날짜는 `dateTimeFormats`를 이용한다.
 ```js
-// locales/index.js 에 추가
+// locales/newBlog.js 에 추가
 
 export const dateTimeFormats = {
   'en-US': {
@@ -144,7 +144,7 @@ const i18n = new VueI18n({
 
 통화 역시 같은 방식으로 적용시키면 되고, `numberFormats`를 이용한다.
 ```js
-// localse/index.js
+// localse/newBlog.js
 
 export const numberFormats = {
   'en-US': {

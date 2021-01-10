@@ -320,7 +320,7 @@ package.json 파일에 script를 추가해서 실행하여도 된다.
 ```json
 "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --watch src/ src/index.js"
+    "start": "nodemon --watch src/ src/newBlog.js"
 },
 ```
 

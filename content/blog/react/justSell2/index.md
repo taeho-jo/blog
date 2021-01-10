@@ -50,8 +50,8 @@ const handleHoverLeave = () => {
 <Arrow
  	 whiteArrow={
     	isActive === "order"
-      	? "/assets/images/index/icon_next_w.png"
-   	   : "/assets/images/index/icon_next.png"
+      	? "/assets/images/newBlog/icon_next_w.png"
+   	   : "/assets/images/newBlog/icon_next.png"
   }
 ```
 

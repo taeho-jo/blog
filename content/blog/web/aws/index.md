@@ -78,7 +78,7 @@ app.get('/*', function (req, res) {
     "Date": new Date()
   });
 ​
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  res.sendFile(path.join(__dirname, 'build', 'newBlog.html'));
 });
 ​
 app.listen(80, () => {
